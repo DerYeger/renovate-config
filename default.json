@@ -11,7 +11,10 @@
     "config:base",
     ":semanticCommits"
   ],
-  "lockFileMaintenance": { "enabled": true },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 6am", "before 8am"]
+  },
   "major": {
     "automerge": false
   },
