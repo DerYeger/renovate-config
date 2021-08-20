@@ -9,14 +9,18 @@
   },
   "extends": [
     "config:base",
-    ":semanticCommits"
+    ":dependencyDashboard",
+    ":disableRateLimiting",
+    ":prHourlyLimitNone",
+    ":semanticCommits",
+    ":semanticPrefixFixDepsChoreOthers"
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["after 6am", "before 8am"]
+    "schedule": ["after 6am and before 8am on monday"]
   },
   "major": {
     "automerge": false
   },
-  "schedule": ["after 1am", "before 6am"]
+  "schedule": ["after 2am and before 6am"]
 }
