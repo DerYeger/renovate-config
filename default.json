@@ -9,8 +9,11 @@
   },
   "extends": [
     "config:base",
+    ":assignAndReview(DerYeger)",
     ":dependencyDashboard",
     ":disableRateLimiting",
+    ":enableVulnerabilityAlertsWithLabel(vulnerability)",
+    ":labels(dependencies,renovate)",
     ":prHourlyLimitNone",
     ":semanticCommits",
     ":semanticPrefixFixDepsChoreOthers"
