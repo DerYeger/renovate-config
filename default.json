@@ -23,7 +23,8 @@
     "schedule": ["after 6am and before 8am on monday"]
   },
   "major": {
-    "automerge": false
+    "automerge": false,
+    "dependencyDashboardApproval": true
   },
    "packageRules": [
     {
