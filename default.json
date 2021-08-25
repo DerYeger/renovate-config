@@ -25,5 +25,11 @@
   "major": {
     "automerge": false
   },
+   "packageRules": [
+    {
+      "matchPackageNames": ["@types/jest"],
+      "groupName": "jest monorepo"
+    }
+  ],
   "schedule": ["after 2am and before 6am"]
 }
