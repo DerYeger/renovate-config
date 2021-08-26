@@ -19,8 +19,7 @@
     ":semanticPrefixFixDepsChoreOthers"
   ],
   "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["after 6am and before 8am on monday"]
+    "enabled": true
   },
   "major": {
     "automerge": false,
@@ -28,8 +27,18 @@
   },
    "packageRules": [
     {
-      "matchPackageNames": ["@types/jest"],
-      "groupName": "jest monorepo"
+      "groupName": "jest monorepo",
+      "matchPackageNames": ["@types/jest"]
+    },
+     {
+      "groupName": "kotlin monorepo",
+      "matchPackagePatterns": ["^org\\.jetbrains\\.kotlin:"],
+      "matchDatasources": ["maven"]
+    },
+    {
+      "groupName": "ktor monorepo",
+      "matchPackagePatterns": ["^io\\.ktor:"],
+      "matchDatasources": ["maven"]
     }
   ],
   "schedule": ["after 2am and before 6am"]
