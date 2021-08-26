@@ -32,7 +32,7 @@
     },
      {
       "groupName": "kotlin monorepo",
-      "matchPackagePatterns": ["^org\\.jetbrains\\.kotlin:"],
+      "matchPackagePatterns": ["^org\\.jetbrains\\.kotlin(:|\\.)"],
       "matchDatasources": ["maven"]
     },
     {
