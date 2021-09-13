@@ -22,8 +22,7 @@
     "enabled": true
   },
   "major": {
-    "automerge": false,
-    "dependencyDashboardApproval": true
+    "automerge": false
   },
    "packageRules": [
     {
