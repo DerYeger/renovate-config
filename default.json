@@ -40,5 +40,5 @@
       "matchDatasources": ["maven"]
     }
   ],
-  "schedule": ["after 2am and before 6am"]
+  "schedule": ["after 12am and before 6am"]
 }
