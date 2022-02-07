@@ -24,12 +24,12 @@
   "major": {
     "automerge": false
   },
-   "packageRules": [
+  "packageRules": [
     {
       "groupName": "jest monorepo",
       "matchPackageNames": ["@types/jest"]
     },
-     {
+    {
       "groupName": "kotlin monorepo",
       "matchPackagePatterns": ["^org\\.jetbrains\\.kotlin(:|\\.)"],
       "matchDatasources": ["maven"]
@@ -40,5 +40,6 @@
       "matchDatasources": ["maven"]
     }
   ],
-  "schedule": ["after 12am and before 6am"]
+  "schedule": ["after 12am and before 10am"],
+  "timezone": "Europe/Vienna"
 }
