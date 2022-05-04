@@ -27,7 +27,8 @@
   "packageRules": [
     {
       "groupName": "jest monorepo",
-      "matchPackageNames": ["@types/jest"]
+      "matchPackageNames": ["@types/jest", "jest", "ts-jest"],
+      "allowedVersions": "<28"
     },
     {
       "groupName": "kotlin monorepo",
