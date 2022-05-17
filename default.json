@@ -27,7 +27,7 @@
   "packageRules": [
     {
       "groupName": "jest monorepo",
-      "matchPackageNames": ["@types/jest", "jest", "babel-jest", "ts-jest"],
+      "matchPackageNames": ["@types/jest", "@vue/vue3-jest", "babel-jest", "jest", "ts-jest"],
       "allowedVersions": "<28"
     },
     {
