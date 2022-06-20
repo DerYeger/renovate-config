@@ -16,7 +16,8 @@
     ":labels(dependencies,renovate)",
     ":prHourlyLimitNone",
     ":semanticCommits",
-    ":semanticPrefixFixDepsChoreOthers"
+    ":semanticPrefixFixDepsChoreOthers",
+    "group:allNonMajor"
   ],
   "lockFileMaintenance": {
     "enabled": true
