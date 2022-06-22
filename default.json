@@ -17,7 +17,8 @@
     ":prHourlyLimitNone",
     ":semanticCommits",
     ":semanticPrefixFixDepsChoreOthers",
-    "group:allNonMajor"
+    "group:allNonMajor",
+    "group:monorepos"
   ],
   "lockFileMaintenance": {
     "enabled": true
