@@ -1,4 +1,5 @@
 {
+  "ignoreDeps": ["vue-chart-3"],
   "packageRules": [
     {
       "matchPackageNames": ["vue"],
