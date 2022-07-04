@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["vue"],
-      "allowedVersions": "<3"
+      "allowedVersions": "<2.7.0"
     },
     {
       "matchPackageNames": ["vuex"],
