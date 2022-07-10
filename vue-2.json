@@ -16,6 +16,10 @@
     {
       "matchPackageNames": ["@vue/test-utils"],
       "allowedVersions": "<2"
+    },
+    {
+      "matchPackageNames": ["@nuxtjs/composition-api"],
+      "allowedVersions": "<0.33.0"
     }
   ]
 }
