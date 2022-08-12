@@ -24,5 +24,6 @@
     {
       "matchPackageNames": ["stylelint-config-standard"],
       "allowedVersions": "<26"
+    }
   ]
 }
