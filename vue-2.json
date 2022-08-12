@@ -20,6 +20,9 @@
     {
       "matchPackageNames": ["@nuxtjs/composition-api"],
       "allowedVersions": "<0.33.0"
-    }
+    },
+    {
+      "matchPackageNames": ["stylelint-config-standard"],
+      "allowedVersions": "<26"
   ]
 }
