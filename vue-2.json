@@ -24,6 +24,10 @@
     {
       "matchPackageNames": ["stylelint-config-standard"],
       "allowedVersions": "<26"
-    }
+    },
+    {
+      "matchPackageNames": ["vite-plugin-dts"],
+      "allowedVersions": "<1.4"
+    },
   ]
 }
