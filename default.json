@@ -9,14 +9,14 @@
   },
   "extends": [
     "config:base",
-    ":assignAndReview(DerYeger)",
+    ":assignee(DerYeger)",
     ":dependencyDashboard",
     ":disableRateLimiting",
     ":enableVulnerabilityAlertsWithLabel(vulnerability)",
     ":labels(dependencies,renovate)",
     ":prHourlyLimitNone",
     ":semanticCommits",
-    ":semanticPrefixFixDepsChoreOthers",
+    ":semanticCommitTypeAll(chore)",
     "group:allNonMajor",
     "group:monorepos"
   ],
