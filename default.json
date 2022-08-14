@@ -16,7 +16,7 @@
     ":labels(dependencies,renovate)",
     ":prHourlyLimitNone",
     ":semanticCommits",
-    ":semanticCommitTypeAll(chore)",
+    ":semanticCommitTypeAll(fix)",
     "group:allNonMajor",
     "group:monorepos"
   ],
