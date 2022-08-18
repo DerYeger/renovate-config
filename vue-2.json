@@ -18,6 +18,10 @@
       "allowedVersions": "<2"
     },
     {
+      "matchPackageNames": ["@nuxtjs/color-mode"],
+      "allowedVersions": "<3"
+    },
+    {
       "matchPackageNames": ["@nuxtjs/composition-api"],
       "allowedVersions": "<0.33.0"
     },
@@ -29,5 +33,9 @@
       "matchPackageNames": ["vite-plugin-dts"],
       "allowedVersions": "<1.4"
     },
+    {
+      "matchPackageNames": ["css-loader"],
+      "allowedVersions": "<6"
+    }
   ]
 }
