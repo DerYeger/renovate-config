@@ -43,6 +43,6 @@
       "matchDatasources": ["maven"]
     }
   ],
-  "schedule": ["after 12am and before 10am on Saturday"],
+  "schedule": ["after 12am and before 7am on Saturday"],
   "timezone": "Europe/Vienna"
 }
