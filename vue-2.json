@@ -36,6 +36,10 @@
     {
       "matchPackageNames": ["css-loader"],
       "allowedVersions": "<6"
+    },
+    {
+      "matchPackageNames": ["@yeger/vue2-masonry-wall"],
+      "allowedVersions": "<2.3.0"
     }
   ]
 }
