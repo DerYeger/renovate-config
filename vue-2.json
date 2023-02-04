@@ -40,6 +40,10 @@
     {
       "matchPackageNames": ["@yeger/vue2-masonry-wall"],
       "allowedVersions": "<2.3.0"
+    },
+    {
+      "matchPackageNames": ["nuxt"],
+      "allowedVersions": "<2.16.0"
     }
   ]
 }
