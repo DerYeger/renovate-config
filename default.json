@@ -9,20 +9,17 @@
   },
   "extends": [
     "config:base",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":autodetectPinVersions",
     ":assignee(DerYeger)",
     ":dependencyDashboard",
     ":disableRateLimiting",
     ":enableVulnerabilityAlertsWithLabel(vulnerability)",
     ":labels(dependencies,renovate)",
-    ":prHourlyLimitNone",
     ":semanticCommits",
-    ":semanticCommitTypeAll(fix)",
     "group:allNonMajor",
-    "group:monorepos"
+    "workarounds:all"
   ],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "major": {
     "automerge": false
   },
